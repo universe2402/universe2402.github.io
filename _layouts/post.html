@@ -94,6 +94,7 @@ tail_includes:
 
   <div class="content">{{ content }}</div>
 
+
   <div class="post-tail-wrapper text-muted">
 <!-- applause -->
       {% if page.applause_button %}
@@ -103,7 +104,9 @@ tail_includes:
       </applause-button>
     </div>
     {% endif %} 
+  </div>
 
+<div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
     <div class="post-meta mb-3">
